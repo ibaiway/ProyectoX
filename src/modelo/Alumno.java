@@ -9,12 +9,20 @@ public class Alumno {
 	private String nombre;
 	private String email;
 	private ArrayList<Matricula> matriculas;
-
+	private Provincia provincia;
+	
 	/*
 	 * GETTERS & SETTERS
 	 */
 	
 	
+	
+	public Provincia getProvincia() {
+		return provincia;
+	}
+	public void setProvincia(Provincia provincia) {
+		this.provincia = provincia;
+	}	
 	
 	public int getId() {
 		return id;
